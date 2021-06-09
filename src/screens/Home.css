@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+  }
+  
+  body { 
+      font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;
+      display: grid;
+      grid-template-areas: 
+      "nav nav nav"
+      "article article article"
+      "main main main"
+      "header section aside"
+      "footer footer footer";
+      grid-template-rows: 60px 1fr 50px;
+      grid-template-columns: 70% 70.5%;
+      grid-gap: 5px;
+    height: 100vh;
+    margin: 10px;  
+  }
+  
+  header {
+      background: #707070;
+      grid-area: header;
+  }
+  
+  nav {
+      background: white;
+      grid-area: nav; 
+  }
+  article {
+    background: white;
+    grid-area: article; 
+}
+main{
+    background: white;
+    grid-area: main;
+}
+  
+  section {
+      background: #ABABAB;
+      grid-area: section;    
+  }
+  
+  aside {
+      background: #C9C9C9;
+      grid-area: aside; 
+  }
+  
+  footer {
+      background: white;
+      grid-area: footer;
+  }
+  
+  header, nav, section, aside, footer,article,main {
+      padding: 5px;
+  }
