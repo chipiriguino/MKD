@@ -52,6 +52,6 @@ main{
       grid-area: footer;
   }
   
-  header, nav, section, aside, footer,article,main {
+  /* header, nav, section, aside, footer,article,main {
       padding: 5px;
-  }
+  } */

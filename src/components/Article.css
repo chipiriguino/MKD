@@ -7,8 +7,20 @@ text-align: left;
 margin: 0 17px;
 letter-spacing: 0.8px;
 }
-
-
+.img-align{
+margin-left: 0.7vh;
+width:97%;
+  
+}
+#implantes{
+  margin-top: 5.4rem;
+}
+#carillas{
+  margin-top:5.4rem;
+}
+#equipo{
+  margin-top: 5.4rem;
+}
 
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);

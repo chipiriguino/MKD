@@ -1,13 +1,16 @@
 import React from "react";
-import './Article.css'
+import './Article.css';
+import Form from "../components/Form";
+
+
 export default function Article() {
   return (
     <div>
       <h1>MKD laboratory</h1>
-      <img src="/images/MKD1.jpeg" alt="lab" width="365" height="300" />
+      <img className="img-align" src="/images/MKD1.jpeg" alt="lab"  height="300" />
       <div>
         <h4>¿Quienes somos?</h4>
-        <p className="text">>
+        <p className="text">
           Lorem Ipsum es simplemente el texto de relleno de las imprentas y
           archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
           las industrias desde el año 1500, cuando un impresor (N. del T.
@@ -68,7 +71,7 @@ export default function Article() {
      <div>
          <div>
              <h4>Cédulas</h4>
-             <img src="/images/cedula.jpeg" alt="lab" width="365" height="300" />
+             <img className="img-align"  src="/images/cedula.jpeg" alt="lab" width="365" height="300" />
              <p className="text">
           Lorem Ipsum es simplemente el texto de relleno de las imprentas y
           archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
@@ -80,38 +83,43 @@ export default function Article() {
          </div>
          <div>
              <h4 id="implantes">Implantes</h4>
-             <img src="/images/implante.jpeg" alt="lab" width="365" height="300" />
-             <p className="text">>
+             <img className="img-align"  src="/images/implante.jpeg" alt="lab" width="365" height="300" />
+             <p className="text">
           Lorem Ipsum es simplemente el texto de relleno de las imprentas y
           archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
           las industrias desde el año 1500, cuando un impresor (N. del T.
           persona que se dedica a la imprenta) desconocido usó una galería de
           textos y los mezcló de tal manera que logró hacer un libro de textos
-          especimen.
+          especimen.Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+          archivos de texto.de las imprentas y
+          archivos de texto.
         </p>
          </div>
          <div>
              <h4 id="carillas">Carillas</h4>
-             <img src="/images/carillas.jpeg" alt="lab" width="365" height="300" />
-             <p className="text">>
+             <img className="img-align"  src="/images/carillas.jpeg" alt="lab" width="365" height="300" />
+             <p className="text">
           Lorem Ipsum es simplemente el texto de relleno de las imprentas y
           archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
           las industrias desde el año 1500, cuando un impresor (N. del T.
           persona que se dedica a la imprenta) desconocido usó una galería de
           textos y los mezcló de tal manera que logró hacer un libro de textos
-          especimen.
+          especimen.Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+          archivos de texto.de las imprentas y
+          archivos de texto.
         </p>
          </div>
      </div>
         </div>
 
-        <div>
-            <h4>Contacto</h4>
-            <p className="text">>Puedes contactarnos a través de nuestro...las industrias desde el año 1500, cuando un impresor (N. del T.
+        {/* <div>
+            <h4 id="contacto">Contacto</h4>
+            <p className="text">Puedes contactarnos a través de nuestro...las industrias desde el año 1500, cuando un impresor (N. del T.
           persona que se dedica a la imprenta) desconocido usó una galería de
           textos y los mezcló de tal manera que logró hacer un libro de textos
           especimen.</p>
-        </div>
+        </div> */}
+        <Form />
     </div>
   );
 }

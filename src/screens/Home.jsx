@@ -13,9 +13,9 @@ export default function Home() {
         <Navegation />
       </nav>
       <article><Article/></article>
-      <main><Main/></main>
+      {/* <main><Main/></main>
       <header>header</header>
-      <section>section</section>
+      <section>section</section> */}
       <ScrollUpButton
               StopPosition={0}
               ShowAtPosition={350}
@@ -26,9 +26,9 @@ export default function Home() {
               style={{ width: 39, height: 39 }}
               ToggledStyle={{ bottom: 70, right: 10 }}
             />
-      <footer>
+      {/* <footer>
         <Footer />
-      </footer>
+      </footer> */}
     </body>
   );
 }

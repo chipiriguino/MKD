@@ -65,7 +65,16 @@ export default function Navegation() {
           </Nav>
           <Nav>
             <Nav.Link eventKey={2} href="#memes">
+            <Link
+                  to="contacto"
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={1000}
+                >
               Contacto
+              </Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
