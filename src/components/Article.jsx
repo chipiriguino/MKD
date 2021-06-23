@@ -1,13 +1,14 @@
 import React from "react";
 import './Article.css';
 import Form from "../components/Form";
+import ScrollAnimation from 'react-animate-on-scroll';
+
 
 
 export default function Article() {
   return (
     <div>
-      <h1>MKD laboratory</h1>
-      <img className="img-align" src="/images/MKD1.jpeg" alt="lab"  height="300" />
+      <img className="img-align" src="/images/logo.png" alt="lab"  height="300" />
       <div>
         <h4>¿Quienes somos?</h4>
         <p className="text">
@@ -20,8 +21,7 @@ export default function Article() {
           texto de relleno en documentos electrónicos, quedando esencialmente
           igual al original. Fue popularizado en los 60s con la creación de las
           hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más
-          recientemente con software de autoedición, como por ejemplo Aldus
-          PageMaker, el cual incluye versiones de Lorem Ipsum.
+          recientemente con
         </p>
       </div>
       <h4  id="equipo">Nuestro Eqipo</h4>
@@ -67,6 +67,8 @@ export default function Article() {
       </figure>
 
       <div>
+      
+
      <h4 id="tratamientos">Tratamientos</h4>
      <div>
          <div>
@@ -110,6 +112,7 @@ export default function Article() {
         </p>
          </div>
      </div>
+   
         </div>
 
         {/* <div>

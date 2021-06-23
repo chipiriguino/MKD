@@ -1,9 +1,8 @@
 import React from "react";
 import "./Home.css";
 import Navegation from "../components/Nav";
-import Footer from "../components/Footer";
 import Article from "../components/Article";
-import Main from "../components/Main";
+import Wasap from '../components/Whats'
 import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
 
 export default function Home() {
@@ -26,9 +25,12 @@ export default function Home() {
               style={{ width: 39, height: 39 }}
               ToggledStyle={{ bottom: 70, right: 10 }}
             />
+                 <Wasap />
+                
       {/* <footer>
         <Footer />
       </footer> */}
     </body>
+    
   );
 }

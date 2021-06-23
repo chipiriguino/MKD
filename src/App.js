@@ -1,7 +1,8 @@
 import './App.css';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import "animate.css/animate.min.css";
 import Home from './screens/Home';
-import Main from './components/Main'
+import Main from './components/Main';
 
 function App() {
   return (
