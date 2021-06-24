@@ -24,7 +24,7 @@ export default function Navegation() {
                 Equipo
               </Link>
             </Nav.Link>
-            <NavDropdown title="Tratamientos" id="collasible-nav-dropdown">
+            <NavDropdown title="Servicios" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
                 <Link
                   to="tratamientos"
@@ -34,7 +34,7 @@ export default function Navegation() {
                   offset={0}
                   duration={1000}
                 >
-                  Cédulas
+                  Prótesis cementada
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -46,7 +46,7 @@ export default function Navegation() {
                   offset={0}
                   duration={1000}
                 >
-                Implantes
+                Prótesis sobre implantes
                 </Link>
                 </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">
@@ -58,10 +58,23 @@ export default function Navegation() {
                   offset={0}
                   duration={1000}
                 >
-                Carillas
+                Ortodoncia
+                </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4">
+              <Link
+                  to="other"
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={1000}
+                >
+                Otros servicios
                 </Link>
                 </NavDropdown.Item>
             </NavDropdown>
+            
           </Nav>
           <Nav>
             <Nav.Link eventKey={2} href="#memes">

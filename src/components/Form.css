@@ -67,11 +67,15 @@
   }
   
   /* Begin Right Contact Page */
-  .direct-contact-container {
+  /* .direct-contact-container {
     max-width: 400px;
     float: right;
     margin-top: 5px;
-  }
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+  } */
   
   /* Location, Phone, Email Section */
   .contact-list {
@@ -201,6 +205,16 @@
       width: 60px;
       height: 60px;
       line-height: 60px;
+    }
+  }
+
+  @media screen and (min-width: 760px) {
+    .contact-list {
+      list-style-type: none;
+      margin-left: 220px;
+    }
+    .contact-text{
+      font-size: 30px;
     }
   }
   

@@ -13,7 +13,7 @@
       "header section aside"
       "footer footer footer";
       grid-template-rows: 60px 1fr 50px;
-      grid-template-columns: 70% 70.5%;
+      grid-template-columns: 70% 72%;
       grid-gap: 5px;
     height: 100vh;
     margin: 10px;  

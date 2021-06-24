@@ -10,6 +10,7 @@ letter-spacing: 0.8px;
 .img-align{
 margin-left: 0.7vh;
 width:97%;
+max-width: 700px;
   
 }
 #implantes{
@@ -19,6 +20,9 @@ width:97%;
   margin-top:5.4rem;
 }
 #equipo{
+  margin-top: 5.4rem;
+}
+#other{
   margin-top: 5.4rem;
 }
 
@@ -101,3 +105,23 @@ margin-left: 1.5rem;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
+
+
+
+/* MEDIAQUERYS */
+@media screen and (min-width: 767px) {
+  .rspnv-equipo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+  }
+.rspnv-servicios{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#tratamientos{
+  font-size: 6vh;
+}
+  }
