@@ -1,15 +1,16 @@
 import React from "react";
 import './Article.css';
 import Form from "../components/Form";
+import Demo from './Demo';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 
 
 export default function Article() {
   return (
-    <div>
-      <img className="img-align" src="/images/logo.png" alt="lab"  height="300"  />
-      <div>
+    <div >
+    <Demo className="rspnv-carousel1"/>
+      <div className="rspnv-cabecera">
         <h4>¿Quiénes somos?</h4>
         <p className="text">
           Lorem Ipsum es simplemente el texto de relleno de las imprentas y
@@ -24,7 +25,11 @@ export default function Article() {
           recientemente con
         </p>
       </div>
+
+
+
       <h4  id="equipo">Nuestro Eqipo</h4>
+      <hr className="hr"></hr>
       <div className="rspnv-equipo">
       <figure className="snip1376">
         <img
@@ -71,6 +76,7 @@ export default function Article() {
       
 
      <h4 id="tratamientos">Servicios</h4>
+     <hr></hr>
      <div className="rspnv-servicios">
      <div>
              <h4 id="implantes">Prótesis cementada</h4>

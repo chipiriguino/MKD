@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import Navegation from "../components/Nav";
 import Article from "../components/Article";
-import Wasap from '../components/Whats'
+import Wasap from '../components/Whats';
 import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
 
 export default function Home() {
@@ -15,7 +15,8 @@ export default function Home() {
       {/* <main><Main/></main>
       <header>header</header>
       <section>section</section> */}
-      <ScrollUpButton
+      <div id="ko">
+      <ScrollUpButton 
               StopPosition={0}
               ShowAtPosition={350}
               EasingType="easeOutCubic"
@@ -25,6 +26,7 @@ export default function Home() {
               style={{ width: 39, height: 39 }}
               ToggledStyle={{ bottom: 70, right: 10 }}
             />
+            </div>
                  <Wasap />
                 
       {/* <footer>

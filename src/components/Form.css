@@ -23,7 +23,13 @@
     position: relative;
     max-width: 800px;
   }
+  .contact-icon{
+    background-color: white;
+  }
   
+  .fa-instagram{
+    background-image: "/images/instagram.png";
+  }
   /* Begin Left Contact Page */
   .form-horizontal {
     float: left;
@@ -194,6 +200,7 @@ justify-content: center;
     }  
     .direct-contact-container {
       margin-top: 60px;
+      margin-right: 200px;
       max-width: 300px;
     }    
     .social-media-list li {
@@ -206,6 +213,7 @@ justify-content: center;
       height: 60px;
       line-height: 60px;
     }
+   
   }
 
   @media screen and (min-width: 760px) {
@@ -215,6 +223,10 @@ justify-content: center;
     }
     .contact-text{
       font-size: 30px;
+    }
+    .copyright {
+      font: 200 34px 'Oswald', sans-serif;
+     
     }
   }
   
