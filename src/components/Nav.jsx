@@ -12,7 +12,7 @@ export default function Navegation() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="#features">Quiénes somos</Nav.Link>
-            <Nav.Link href="#pricing">
+            {/* <Nav.Link href="#pricing">
               <Link
                 to="equipo"
                 activeClass="active"
@@ -23,7 +23,7 @@ export default function Navegation() {
               >
                 Equipo
               </Link>
-            </Nav.Link>
+            </Nav.Link> */}
             <NavDropdown title="Servicios" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
                 <Link
@@ -74,9 +74,20 @@ export default function Navegation() {
                 </Link>
                 </NavDropdown.Item>
             </NavDropdown>
-            
+            <Nav.Link href="#pricing">
+              <Link
+                to="contacto"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1000}
+              >
+                Contacto
+              </Link>
+            </Nav.Link>
           </Nav>
-          <Nav>
+          {/* <Nav>
             <Nav.Link eventKey={2} href="#memes">
             <Link
                   to="contacto"
@@ -89,7 +100,7 @@ export default function Navegation() {
               Contacto
               </Link>
             </Nav.Link>
-          </Nav>
+          </Nav> */}
         </Navbar.Collapse>
       </Navbar>
     </div>

@@ -27,8 +27,9 @@ export default function Home() {
               ToggledStyle={{ bottom: 70, right: 10 }}
             />
             </div>
-                 <Wasap />
-                
+        
+                 < Wasap />
+       
       {/* <footer>
         <Footer />
       </footer> */}

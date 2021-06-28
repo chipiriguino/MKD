@@ -2,7 +2,6 @@ import React from "react";
 import './Article.css';
 import Form from "../components/Form";
 import Demo from './Demo';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 
 
@@ -28,7 +27,7 @@ export default function Article() {
 
 
 
-      <h4  id="equipo">Nuestro Eqipo</h4>
+      {/* <h4  id="equipo">Nuestro Eqipo</h4>
       <hr className="hr"></hr>
       <div className="rspnv-equipo">
       <figure className="snip1376">
@@ -71,7 +70,7 @@ export default function Article() {
           
         </figcaption>
       </figure>
-      </div>
+      </div> */}
       <div>
       
 

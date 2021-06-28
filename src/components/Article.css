@@ -12,6 +12,8 @@ hr{
 text-align: left;
 margin: 0 17px;
 letter-spacing: 0.8px;
+font-family: 'Oswald', Arial, sans-serif;
+color:#9c9c9c;
 }
 .img-align{
 margin-left: 0.7vh;
@@ -21,15 +23,18 @@ max-width: 700px;
 }
 #implantes{
   margin-top: 5.4rem;
+  font-family: 'Quattrocento', Arial, sans-serif;
 }
 #carillas{
   margin-top:5.4rem;
+  font-family: 'Quattrocento', Arial, sans-serif;
 }
 #equipo{
   margin-top: 5.4rem;
 }
 #other{
   margin-top: 5.4rem;
+  font-family: 'Quattrocento', Arial, sans-serif;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Oswald);
@@ -156,7 +161,9 @@ margin-left: 1.5rem;
   max-width: 515px;
   font-size: 24px;
 }
-
+#tratamientos{
+  margin-top: 14rem;
+}
 #implantes{
   font-size: 1.9em;
 }
