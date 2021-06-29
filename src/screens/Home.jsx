@@ -15,7 +15,8 @@ export default function Home() {
       {/* <main><Main/></main>
       <header>header</header>
       <section>section</section> */}
-      <div id="ko">
+      <div className="ss">
+      <div className="color" id="ko">
       <ScrollUpButton 
               StopPosition={0}
               ShowAtPosition={350}
@@ -27,9 +28,10 @@ export default function Home() {
               ToggledStyle={{ bottom: 70, right: 10 }}
             />
             </div>
-        
+            </div>
+        <div className="ws">
                  < Wasap />
-       
+                 </div>
       {/* <footer>
         <Footer />
       </footer> */}

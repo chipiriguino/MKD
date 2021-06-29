@@ -1,6 +1,8 @@
 h4{
     text-align: center;
 padding-bottom: 20px;
+font: 300 60px 'Oswald', sans-serif;
+margin-top: 60px !important;
 }
 .hr{
 margin-bottom: 5rem;
@@ -20,6 +22,11 @@ margin-left: 0.7vh;
 width:97%;
 max-width: 700px;
   
+}
+#pcementada{
+  margin-top: 2rem;
+  font-family: 'Quattrocento', Arial, sans-serif;
+  font-size: 1.9em;
 }
 #implantes{
   margin-top: 5.4rem;
@@ -136,10 +143,6 @@ margin-left: 1.5rem;
   display: none;
 }
 
-
-#tratamientos{
-  font-size: 4vh;
-}
 #equipo{
   font-size: 4vh;
 }
@@ -162,7 +165,10 @@ margin-left: 1.5rem;
   font-size: 24px;
 }
 #tratamientos{
-  margin-top: 14rem;
+  font-size: 4vh;
+}
+#tratamientos h4{
+  margin-top: 20px;
 }
 #implantes{
   font-size: 1.9em;

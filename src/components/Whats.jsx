@@ -12,7 +12,7 @@ export default class Wasap extends Component {
         rel="noopener noreferrer"
       >
         <i className="fa fa-whatsapp whatsapp-icon">
-            {/* <img src="images/wasap.png" height="40" width="40" alt="wasap" /> */}
+            <img className="fa-ws" src="images/wasap.png" height="40" width="43" alt="wasap" />
             </i>
       </a>
             </div>

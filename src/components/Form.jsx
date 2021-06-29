@@ -63,9 +63,6 @@ export default function Form() {
           <li><a href="https://www.instagram.com/"  className="contact-icon">
             <i className="fa fa-instagram" aria-hidden="true"></i></a>
           </li>
-          <li><a href="https://www.instagram.com/"  className="contact-icon">
-            <i className="fa fa-codepen" aria-hidden="true"></i></a>
-          </li>
         </ul>
         <hr/>
         <div className="copyright">handmade with love by <a href="https://portfolio-chipiriguino.herokuapp.com/" className="chipi">chipiriguino</a></div>

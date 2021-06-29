@@ -78,7 +78,7 @@ export default function Article() {
      <hr></hr>
      <div className="rspnv-servicios">
      <div>
-             <h4 id="implantes">Prótesis cementada</h4>
+             <h4 id="pcementada">Prótesis cementada</h4>
              <img className="img-align"  src="/images/1.jpeg" alt="lab" width="365" height="330" />
              <p className="text">
           Lorem Ipsum es simplemente el texto de relleno de las imprentas y
