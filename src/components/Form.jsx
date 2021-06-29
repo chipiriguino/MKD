@@ -41,27 +41,27 @@ export default function Form() {
       <div className="direct-contact-container">
 
         <ul className="contact-list">
-          <li className="list-item"><i className="fa fa-map-marker fa-2x"><span className="contact-text place">Santa Pola, Alicante</span></i></li>
+          <li className="list-item"><i className="fa fa-map-marker fa-2x"><span className="contact-text place">Santa Pola,Alicante</span></i></li>
           
-          <li className="list-item"><i className="fa fa-phone fa-2x"><span className="contact-text phone"><a href="tel:34-744-629-870" title="Give me a call">+34 774-639-870</a></span></i></li>
+          <li className="list-item"><i className="fa fa-phone fa-2x"><span className="contact-text phone "><a href="tel:34-744-629-870" title="Give me a call">+34 774-639-870</a></span></i></li>
           
-          <li className="list-item"><i className="fa fa-envelope fa-2x"><span className="contact-text gmail"><a href="mailto:#" title="Send me an email">Info@mkdlaboratory.es</a></span></i></li>
+          <li className="list-item"><i className="fa fa-envelope fa-2x"><span className="contact-text gmail "><a href="mailto:#" title="Send me an email">Info@mkdlaboratory.es</a></span></i></li>
           
           <li className="list-item"><i className="fa fa-map-marker fa-2x"><span className="contact-text place">MKD laboratory SL</span></i></li>
     
-          <li className="list-item"><i className="fa fa-map-marker fa-2x"><span className="contact-text place">CIF:B42989681</span></i></li>
+          <li className="list-item"><i className="fa fa-map-marker fa-2x"><span className="contact-text cif">CIF:B42989681</span></i></li>
     </ul>
 
         <hr/>
         <ul className="social-media-list">
-          <li><a href="https://www.instagram.com/"  className="contact-icon">
-            <i className="fa fa-github" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="https://www.instagram.com/" className="contact-icon">
-            <i className="fa fa-twitter" aria-hidden="true"></i></a>
+        <li><a href="https://www.instagram.com/"  className="contact-icon">
+            <i className="fa fa-instagram" aria-hidden="true"> <img className="icons-align"  src="images/insta.png" height="60" width="60" alt="wasap" /></i></a>
           </li>
           <li><a href="https://www.instagram.com/"  className="contact-icon">
-            <i className="fa fa-instagram" aria-hidden="true"></i></a>
+            <i className="fa fa-instagram" aria-hidden="true"> <img className="icons-align"  src="images/face.png" height="60" width="60" alt="wasap" /></i></a>
+          </li>
+          <li><a href="https://www.instagram.com/"  className="contact-icon">
+            <i className="fa fa-instagram" aria-hidden="true"> <img className="icons-align"  src="images/twitter.png" height="60" width="60" alt="wasap" /></i></a>
           </li>
         </ul>
         <hr/>

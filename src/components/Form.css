@@ -23,13 +23,16 @@
     position: relative;
     max-width: 800px;
   }
-  .contact-icon{
+  .icons-align{
+    margin-bottom: 10px;
+  }
+  /* .contact-icon{
     background-color: white;
-  }
+  } */
   
-  .fa-instagram{
-    background-image: "/images/instagram.png";
-  }
+  /* .fa-instagram{
+    background-image: "/images/wasap.png";
+  } */
   /* Begin Left Contact Page */
   .form-horizontal {
     float: left;
@@ -108,15 +111,18 @@ justify-content: center;
   }
   
   .place {
-    margin-left: 62px;
+    margin-left: 82px;
+  }
+  .cif {
+    margin-left: 95px;
   }
   
   .phone {
-    margin-left: 56px;
+    margin-left: 82px;
   }
   
   .gmail {
-    margin-left: 53px;
+    margin-left: 82px;
   }
   
   .contact-text a {
@@ -234,6 +240,22 @@ justify-content: center;
       font: 200 34px 'Oswald', sans-serif;
      
     }
+    .place {
+      margin-left: 38px;
+    }
+    .cif {
+      margin-left: 60px;
+    }
+    
+    .phone {
+      margin-left: 38px;
+    }
+    
+    .gmail {
+      margin-left: 38px;
+    }
+    
+  
   }
   
   @media screen and (max-width: 569px) {
@@ -246,7 +268,10 @@ justify-content: center;
       max-width: 340px;
       margin: 0 auto;
     }
-   
+    .icons-align{
+      height: 55px;
+      width: 55px;
+    }
     
     .name, .email, textarea {
       width: 280px;
